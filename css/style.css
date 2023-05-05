@@ -23,11 +23,11 @@ img {
     padding-right: 10px;
     float: left;
 }
-.clearfix::after {
+ .clearfix::after { 
     content: ;
     display: table;
     clear: both;
-}
+ }
 .block {
     background-color: #0F0E17;
     width: 300px;
@@ -38,7 +38,7 @@ h3, .profession {
     padding-top: 10px;
 }
 h3 {
-    
+
 }
 .block:last-child {
     color: #097BBD;
