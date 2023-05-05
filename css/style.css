@@ -9,6 +9,7 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
+/* Header */
 h1 {
     color: #E5306F;
     text-align: center;
@@ -16,3 +17,30 @@ h1 {
 p {
     text-align: center;
 }
+img {
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+    float: left;
+}
+.clearfix::after {
+    content: ;
+    display: table;
+    clear: both;
+}
+.block {
+    background-color: #0F0E17;
+    width: 300px;
+    height: 100px;
+}
+h3, .profession {
+    color: white;
+    padding-top: 10px;
+}
+h3 {
+    
+}
+.block:last-child {
+    color: #097BBD;
+}
+
